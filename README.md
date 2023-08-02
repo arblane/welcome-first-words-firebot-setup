@@ -16,4 +16,5 @@ Choose the file "Welcome.firebotsetup" from the location you just downloaded it 
 ## Streamer Info
 + There is a filter that the chat user is not a known bot or the streamer
 + Recommend you add an effect queue to allow them to play one after another
-+ Customize the colors of the background, text, and position
++ Customize the text, and position
++ The chatter's Twitch color will be used as the gradient background color
