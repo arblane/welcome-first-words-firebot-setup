@@ -1,15 +1,17 @@
 # welcome-first-words-firebot-setup
 Upon a chat user's first words of the stream, display their Twitch avatar and name in a welcome box on stream.
 
+# Compatibility
++ Firebot 5.58.0+
+
 # Install
-To install, download the file Welcome.firebotsetup
-
-Import setup for Firebot by going to Settings > Setups > Import Setup.
-
-Choose the file "Welcome.firebotsetup" from the location you just downloaded it to, then click Import setup.
++ Download
+    + Welcome.firebotsetup
+    + welcomes.html
++ Import the downloaded firebotsetup file
+    + You will need to edit the preset effect to change the location of the html file.
 
 # Usage
-
 ## Requirements for Chat
 + Must type something in chat
 
@@ -18,3 +20,7 @@ Choose the file "Welcome.firebotsetup" from the location you just downloaded it 
 + Recommend you add an effect queue to allow them to play one after another
 + Customize the text, and position
 + The chatter's Twitch color will be used as the gradient background color
++ If you set an alias in Firebot for the user, the included utility will randomly select one for use, otherwise the alias will default to their username
+
+# Additional
++ [[Utility] Alias](https://github.com/arblane/Utility-Alias)
