@@ -20,8 +20,9 @@ Upon a chat user's first words of the stream, display their Twitch avatar and na
 + Recommend you add an effect queue to allow them to play one after another
 + Customize the text, and position
 + The chatter's Twitch color will be used as the gradient background color
-+ If you set an alias in Firebot for the user, the included utility will select the first one for use, otherwise the alias will default to their username
-    + Upcoming change will pick a random alias, if more than one are set
++ If you set an alias in Firebot for the user
+    + The included utility will select a random alias, if more than one are set
+    + If there is no aliases set, it will default to the username
 
 # Dependency (included in this setup)
 + [[Utility] Alias](https://github.com/arblane/Utility-Alias)
